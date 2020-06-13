@@ -4,12 +4,6 @@
   
   <url>
     <loc>https://thatnixguy.github.io/about/</loc>
-    <lastmod>2020-06-13T12:22:50+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thatnixguy.github.io/</loc>
-    <lastmod>2020-06-13T12:22:50+05:30</lastmod>
   </url>
   
   <url>
@@ -21,15 +15,23 @@
   </url>
   
   <url>
-    <loc>https://thatnixguy.github.io/posts/linux/</loc>
-  </url>
-  
-  <url>
     <loc>https://thatnixguy.github.io/posts/</loc>
   </url>
   
   <url>
+    <loc>https://thatnixguy.github.io/posts/ricing/</loc>
+  </url>
+  
+  <url>
     <loc>https://thatnixguy.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thatnixguy.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thatnixguy.github.io/posts/why-we-use-linux/</loc>
   </url>
   
 </urlset>

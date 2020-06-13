@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Ricing :: ThatNixGuy</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="&amp;ldquo;Making improvements to a system that don&amp;rsquo;t actually do anyone any good, and can sometimes have negative ramifications&amp;rdquo;
+Rice/Ricing
+&amp;ldquo;Rice&amp;rdquo; is a word that is commonly used to refer to making visual improvements and customizations on one&amp;rsquo;s desktop. It was inherited from the practice of customizing cheap Asian import cars to make them appear to be faster than they actually were - which was also known as &amp;ldquo;ricing&amp;rdquo;. Here on /r/unixporn , the word is accepted by the majority of the community and is used sparingly to refer to a visually attractive desktop upgraded beyond the default."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://thatnixguy.github.io/posts/ricing/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://thatnixguy.github.io/assets/style.css">
+
+
+<link rel="stylesheet" href="https://thatnixguy.github.io/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://thatnixguy.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://thatnixguy.github.io/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ricing"/>
+<meta name="twitter:description" content="Making improvements to a system that don&#39;t actually do anyone any good, and can sometimes have negative ramifications"/>
+
+
+
+<meta property="og:title" content="Ricing" />
+<meta property="og:description" content="Making improvements to a system that don&#39;t actually do anyone any good, and can sometimes have negative ramifications" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thatnixguy.github.io/posts/ricing/" />
+<meta property="og:site_name" content="ThatNixGuy" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Nix Blog</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title"><a href="https://thatnixguy.github.io/posts/ricing/">Ricing</a></h1>
+    <div class="post-meta">
+      
+
+      
+      
+    </div>
+
+    
+
+    
+      
+        <img src="https://thatnixguy.github.io/images/spidey.png" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      
+      <p><em><strong>&ldquo;Making improvements to a system that don&rsquo;t actually do anyone any good, and can sometimes have negative ramifications&rdquo;</strong></em></p>
+<p><strong>Rice/Ricing</strong></p>
+<p>&ldquo;Rice&rdquo; is a word that is commonly used to refer to making visual improvements and customizations on one&rsquo;s desktop. It was inherited from the practice of customizing cheap Asian import cars to make them appear to be faster than they actually were - which was also known as &ldquo;ricing&rdquo;. Here on /r/unixporn , the word is accepted by the majority of the community and is used sparingly to refer to a visually attractive desktop upgraded beyond the default.</p>
+<h3 id="tldr">TL;DR</h3>
+<p><strong>Let Me tell you a story</strong></p>
+<p>You are a Linux User(Other wise you wouldn&rsquo;t be interested), you are hanging out with some friends and there&rsquo;s always a guy who says &ldquo;check out my &ldquo;awesome&rdquo; desktop setup&rdquo; where he had riced his linux distro. You with all your friends are thinking his setup is <strong>dope af</strong>. But when you ask him how to do it, he, being a huge jerk, uses all the nerdy words like &ldquo;Tiling window manager, Polybar, dotfiles, /r/unixporn, Ricing&rdquo; and you don&rsquo;t even heard them because you always have been a Gnome/Unity guy. So you went to internet to find some thing about ricing and how to do them but you are overwhelmed by all the words used there and so you give up.</p>
+<p>But you are not here to be that guy, you are here to know what&rsquo;s the fuzz about. So let me introduce you to the world of <strong>&ldquo;Ricing&rdquo;</strong></p>
+<p><strong>Who is this guide for?</strong></p>
+<p>Those who are interested in ricing or would like to know what it is, whether they are experienced Linux users or complete beginners.</p>
+<p>Those who want control over the way their desktop environment [DE] looks, far beyond the offerings of Windows and OS X.</p>
+<p>Those who dislike extra/unneeded features cluttering their DE. With ricing and Linux in general, you can keep what you want/need and remove everything else. This is especially helpful for older systems.</p>
+<h2 id="introduction">Introduction</h2>
+<p>The term ‘rice’ is used to describe a person’s unix desktop where ‘ricing’ is when someone is custom their desktop such as the icons, panels, or system interface. When it comes to ricing a tiling window manager though, the ricing of a user’s system becomes much more involved. Basic things such as the panel bar and application launcher must be configured by the user.</p>
+<p>The reddit community <a href="https://www.reddit.com/r/unixporn">/r/unixporn</a> is a great place to stay up to date on what people are using for their setups.</p>
+<p><strong>List of Things to know before ricing your system</strong></p>
+<ol>
+<li>
+<p><em><strong>Window Managers</strong></em>  : A window manager is software for an operating system that manages the placement of open windows. There are many window managers for Linux, most commonly used are</p>
+<ul>
+<li><a href="https://i3wm.org">i3wm</a></li>
+<li><a href="https://github.com/baskerville/bspwm">bspwm</a></li>
+<li><a href="https://openbox.org">openbox</a></li>
+<li><a href="https://awesomewm.org">AwesommeWM</a></li>
+<li><a href="https://fluxbox.org">FluxBox</a></li>
+<li><a href="https://dwm.suckless.org">DWM</a>.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Desktop Environment</strong></em> :  A desktop environment is a collection of programs bundled together to make a workspace. It comes with a window manager, a panel, a set of default programs (text editor, music player, etc.), a file manager, a terminal emulator, and many, many other things. Some commonly used are</p>
+<ul>
+<li><a href="https://www.gnome.org">Gnome</a></li>
+<li><a href="https://unity3d.org">Unity</a></li>
+<li><a href="https://www.kde.org">KDE</a>,</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Panels</strong></em> : Panels (aka bars) are used to display everything from current desktops to active windows to system informaton. They have very similiar behaviour to the bar you would expect on Windows and OSX. Some commonly used are</p>
+<ul>
+<li><a href="//https://github.com/jaagr/polybar">Polybar</a></li>
+<li><a href="https://https://wiki.archlinux.org/index.php/tint2">Tint</a></li>
+<li><a href="https://https://github.com/LemonBoy/bar">Lemonbar</a>.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Program Launchers</strong></em> : A launcher is a program displaying a dialog to search for an action, typically launch an application. Many are not limited to just this, and allow you to perform other operations such as open up files and folders on your computer. Some commonly used are</p>
+<ul>
+<li><a href="https://tools.suckless.org/dmenu/">Dmenu</a></li>
+<li><a href="https://github.com/DaveDavenport/rofi">Rofi</a>.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Terminal Emulators</strong></em> : A terminal emulator, terminal application, term, or tty for short, is a program that emulates a video terminal within some other display architecture. Though typically synonymous with a shell or text terminal, the term terminal covers all remote terminals, including graphical interfaces. A terminal emulator inside a graphical user interface is often called a terminal window. Some commonly used are</p>
+<ul>
+<li><a href="https://gnometerminator.blogspot.com/p/introduction.html">Terminator</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/rxvt-unicode">urxvt</a></li>
+<li><a href="https://st.suckless.org/">Suckless</a>.</li>
+</ul>
+</li>
+<li>
+<p><em><strong>Shells</strong></em>: A interactive program for accessing operating system&rsquo;s services.</p>
+<ul>
+<li><a href="https://terminalsare.sexy/">Terminals are Sexy</a></li>
+<li><a href="https://www.gnu.org/software/bash/">Bash</a></li>
+<li><a href="https://github.com/awesome-lists/awesome-bash">Awesome BASH</a></li>
+<li><a href="https://www.zsh.org/">Zsh</a>
+<ul>
+<li><a href="https://ohmyz.sh/">Oh-My-Zsh</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/unixorn/awesome-zsh-plugins">Awesome ZSH</a>
+-  <a href="https://fishshell.com/">fish</a></li>
+<li><a href="https://github.com/oh-my-fish/oh-my-fish">Oh-my-fish</a></li>
+<li><a href="https://github.com/fisherman/awesome-fish-shell">Awesome fish</a></li>
+</ul>
+</li>
+<li>
+<p><em><strong>Image viewers</strong></em> :</p>
+<ul>
+<li><a href="https:///www.johnhawthorn.com/meh/">meh</a></li>
+<li><a href="https://feh.finalrewind.org/">feh</a></li>
+</ul>
+</li>
+<li>
+<p><em><strong>Audio</strong></em>:</p>
+<ul>
+<li><a href="https://github.com/MusicPlayerDaemon/MPD">mpd</a></li>
+<li><a href="https://moc.daper.net/">moc</a></li>
+<li><a href="https://cmus.github.io/">cmus</a></li>
+</ul>
+</li>
+<li>
+<p><em><strong>Video</strong></em> : No other than <a href="https://mpv.io/">mpv</a></p>
+</li>
+<li>
+<p><em><strong>SystemInfo</strong></em> : <a href="https://github.com/dylanaraps/neofetch">Neofetch</a>, <a href="https://github.com/KittyKatt/screenFetch">Screenfetch</a></p>
+</li>
+<li>
+<p><em><strong>Screenshot</strong></em>: <a href="https://github.com/dreamer/scrot">scrot</a>, <a href="https://shutter-project.org/">shutter</a></p>
+</li>
+</ol>
+<p>Best distro for ricing is Arch Linux. It&rsquo;s my personal opinion. I just love Arch linux(<a href="https://archlabslinux.com/">Arch labs</a> or <a href="https://arcolinux.info">Arcolinux</a> for ease) and their philosophy <em><strong>&ldquo;Keep it simple, Stupid&rdquo;</strong></em>.<br>
+You can also use ubuntu but you can&rsquo;t do all the cool things which you can do with Arch easily.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>It will take time to get the hang of it but once the adrenaline kicks in, I gurantee you, you will feel awesome and also you could be that jerk in the above story.</p>
+<p><em><strong>Some Examples</strong></em></p>
+<p><img src="/images/rice.png" alt="image"></p>
+<p><img src="/images/rice1.png" alt="image2"></p>
+<p><img src="/images/rice2.png" alt="image6"></p>
+<p><img src="/images/rice3.png" alt="image3"></p>
+<p><img src="/images/rice4.png" alt="image4"></p>
+<p><img src="/images/rice5.png" alt="image5"></p>
+<p><img src="/images/cat.png" alt="image6"></p>
+<p><img src="/images/batman.png" alt="image7"></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Read other posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://thatnixguy.github.io/posts/cloud/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Cloud</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://thatnixguy.github.io/posts/why-we-use-linux/">
+                  <span class="button__text">Why We Use Linux</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+          <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Nix Blog</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://github.com/LoneWolf38" target="_blank" rel="noopener">LoneWolf38</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://thatnixguy.github.io/assets/main.js"></script>
+<script src="https://thatnixguy.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
