@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://thatnixguy.github.io/posts/jenkins/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thatnixguy.github.io/posts/cloud-part2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thatnixguy.github.io/posts/cloud/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thatnixguy.github.io/posts/ricing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thatnixguy.github.io/posts/why-we-use-linux/</loc>
+  </url>
+  
+  <url>
     <loc>https://thatnixguy.github.io/about/</loc>
   </url>
   
@@ -11,15 +31,7 @@
   </url>
   
   <url>
-    <loc>https://thatnixguy.github.io/posts/cloud/</loc>
-  </url>
-  
-  <url>
     <loc>https://thatnixguy.github.io/posts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://thatnixguy.github.io/posts/ricing/</loc>
   </url>
   
   <url>
@@ -28,10 +40,6 @@
   
   <url>
     <loc>https://thatnixguy.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://thatnixguy.github.io/posts/why-we-use-linux/</loc>
   </url>
   
 </urlset>
